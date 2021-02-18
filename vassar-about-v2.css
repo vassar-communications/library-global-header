@@ -4135,7 +4135,7 @@ li {
 
 @media screen {
     html {
-        padding: 3.65em 0 0 !important
+        padding: 0 0 0 !important
     }
 
     body {
@@ -4271,6 +4271,20 @@ li {
         display: none !important;
         visibility: hidden !important
     }
+}
+
+@media all and (min-width: 800px) {
+    body {
+        position: static;
+    }
+    html {
+        padding: 6em 0 0 !important;
+    }    
+}
+@media all and (min-width: 840px) {
+    html {
+        padding: 4.9em 0 0 !important;
+    }    
 }
 
 @media all and (min-width: 56.25em) {
@@ -4993,3 +5007,24 @@ h1 a:link,h2 a:link,h3 a:link,h4 a:link,h5 a:link,h6 a:link,.Module__headerLink:
     background-size: cover;
     color: #fff
 }
+/*
+@media screen {
+    html {
+        padding: 0 0 0 !important
+    }
+}
+@media all and (min-width: 800px) {
+    body {
+        position: static;
+    }
+    html {
+        padding: 6em 0 0 !important;
+    }    
+}
+@media all and (min-width: 840px) {
+    html {
+        padding: 4.9em 0 0 !important;
+    }    
+}
+*/
+
